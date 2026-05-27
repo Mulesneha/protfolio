@@ -1,13 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>hello world</title>
-   
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile h1 {
+            margin-bottom: 5px;
+        }
+
+        .box {
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
 </head>
+
 <body>
 
-    <br>
-  <marquee>Welcome to my website</marquee>  
+<header>
+    <h1>My Portfolio</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <div class="profile">
+        <h1>Your Name</h1>
+        <p>Computer Engineering Student | Developer | Learner</p>
+    </div>
+    <div class="box">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate student learning web development, Android development,
+            and programming. I enjoy building simple and useful projects.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Java (Android Development)</li>
+        <li>Oracle Database</li>
+        <li>Problem Solving</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li>Android TextToSpeech App</li>
+        <li>Basic Calculator Web App</li>
+        <li>Student Management System (Java)</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: yourmail@example.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+</section>
+
+<footer>
+    <p>© 2026 My Portfolio | All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
